@@ -14,7 +14,7 @@ Quickly scaffold your Boost project with this starter template.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/boost-labs/boost-starter-template.git
+   git clone https://github.com/mmackz/boost-starter-template.git
    cd boost-starter-template
    ```
 
@@ -27,13 +27,14 @@ Quickly scaffold your Boost project with this starter template.
    yarn install
    ```
 
-3. Create a `.env.local` file in the root directory with the following variables:
+3. Create a `.env` or `.env.local` file in the root directory with the following variables:
    ```
    NEXT_PUBLIC_WC_PROJECT_ID=your_wallet_connect_project_id
    NEXT_PUBLIC_BASE_RPC_URL=your_base_rpc_url
    ```
 
 #### Get WalletConnect Project ID (NEXT_PUBLIC_WC_PROJECT_ID)
+Follow this guide:
 - https://docs.blockscout.com/setup/configuration-options/walletconnect-project-id-for-contract-read-write
 
 ### Configuring RPC Endpoints
